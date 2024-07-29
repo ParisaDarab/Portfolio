@@ -4,7 +4,7 @@ import { TbWorldWww } from 'react-icons/tb'
 
 export const ProjectCart = ({img,url,title,text,id,github}) => {
   return (
-    <section className='bg-white rounded-lg shadow-md block hover:shadow-xl duration-300'>
+    <section className='bg-white rounded-lg shadow-md block hover:shadow-xl duration-300' >
         <img src={img} className='w-full object-cover rounded-t-lg h-64 '></img>
         <div className='capitalize p-8'>
         <h2 className='text-xl tracking-wide font-medium'>{title}</h2>
